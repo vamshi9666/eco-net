@@ -14,5 +14,5 @@
       "scripts": ["input.js"]
     },
 
-    "permissions": ["tabs"]
+    "permissions": ["tabs","theme"]
 }   
