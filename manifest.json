@@ -1,6 +1,6 @@
  {
     "manifest_version": 2,
-    "name": "browser-mon",
+    "name": "eco-mon",
     "version": "1.0",
     "content_scripts": [
       {
@@ -15,4 +15,4 @@
     },
 
     "permissions": ["tabs","theme"]
-}   
+}
