@@ -4,7 +4,7 @@ browser.runtime.onMessage.addListener(listener);
 
 var hundred = {
   colors: {
-   accentcolor: '#76FF03',
+   accentcolor: '#B2FF59',
    textcolor: '#111'
  }
 }; 
