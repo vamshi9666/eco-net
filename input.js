@@ -7,7 +7,13 @@ var hundred = {
    accentcolor: '#B2FF59',
    textcolor: '#111'
  }
-}; 
+};
+var ninety = {
+  colors: {
+   accentcolor: (0,0,0),
+   textcolor: '#111'
+ }
+}
 
 var seventy = {
   colors:{
@@ -19,7 +25,7 @@ var fifty = {
   colors:{
     accentcolor:'#CDDC39',
     textcolor:'#111'
-  } 
+  }
 }
 var thirty = {
   colors:{
@@ -42,7 +48,7 @@ var zero = {
 }
 function listener(message) {
     var  timeRes = message;
-    console.log(timeRes);  
+    console.log(timeRes);
     if(timeRes < 3){
       browser.theme.update(hundred)
     }
@@ -62,8 +68,3 @@ function listener(message) {
       browser.theme.update(zero)
     }
 }
-
-
-
-
-
